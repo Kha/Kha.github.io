@@ -126,4 +126,6 @@ As a first simple example of this, I experimented with hiding a step counter ins
 
 [Hacker News](https://news.ycombinator.com/item?id=12146049#12146807)
 
+[r/rust](https://www.reddit.com/r/rust/comments/4u4hrl/a_formal_verification_of_rusts_binary_search)
+
 ---
