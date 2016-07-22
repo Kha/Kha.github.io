@@ -120,4 +120,8 @@ Instead of avoiding code that does impure `unsafe` things, another approach woul
 
 As a first simple example of this, I experimented with hiding a step counter inside the monad to [derive a bound](https://github.com/Kha/electrolysis/blob/144bc840ec35e5995166d6e5383dd434760f6197/thys/core/thy.lean#L429) on `binary_search`'s time complexity -- which turned out to be slightly more complex if you don't assume that comparisons will be constant-time and you don't have a model of Big O notation for multiparametric functions. But let me postpone discussing that to a potential future blog post instead of making this one even longer. Last time I checked, my university wasn't quite ready to accept theses in blog form yet.
 
+# Discussions
+
+[Rust Programming Language Forum](https://users.rust-lang.org/t/blog-post-a-formal-verification-of-rusts-binary-search-implementation/6644)
+
 ---
