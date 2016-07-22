@@ -1,0 +1,39 @@
+pre.emacs {
+      font-size: $small-font-size;
+      //color: #655370;
+      //background-color: #fbf8ef;
+
+      .comment {
+        /* font-lock-comment-face */
+        color: #2aa1ae;
+        background-color: #ecf3ec;
+      }
+      .comment-delimiter {
+        /* font-lock-comment-delimiter-face */
+        color: #2aa1ae;
+        background-color: #ecf3ec;
+      }
+      .constant {
+        /* font-lock-constant-face */
+        color: #4e3163;
+      }
+      .function-name {
+        /* font-lock-function-name-face */
+        color: #6c3163;
+        font-weight: bold;
+      }
+      .keyword {
+        /* font-lock-keyword-face */
+        color: #3a81c3;
+        font-weight: bold;
+      }
+      .rainbow-delimiters-depth-1 {
+        /* rainbow-delimiters-depth-1-face */
+        color: #3a81c3;
+      }
+      .type {
+        /* font-lock-type-face */
+        color: #ba2f59;
+        font-weight: bold;
+      }
+}
